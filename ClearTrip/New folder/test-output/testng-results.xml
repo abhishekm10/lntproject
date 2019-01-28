@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="217633" started-at="2019-01-25T16:36:51Z" finished-at="2019-01-25T16:40:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="217633" started-at="2019-01-25T16:36:51Z" finished-at="2019-01-25T16:40:28Z">
+      <class name="integration.LoginAndOneWayIntegration">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:integration.LoginAndOneWayIntegration@75f32542]" name="beforeTest" is-config="true" duration-ms="19238" started-at="2019-01-25T22:06:51Z" finished-at="2019-01-25T22:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="oneWaySearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:integration.LoginAndOneWayIntegration@75f32542]" name="oneWaySearch" duration-ms="13512" started-at="2019-01-25T22:07:10Z" data-provider="oneWayData" finished-at="2019-01-25T22:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[   New Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[   Mon, 25 Mar, 2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWaySearch -->
+        <test-method status="PASS" signature="oneWaySearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:integration.LoginAndOneWayIntegration@75f32542]" name="oneWaySearch" duration-ms="27824" started-at="2019-01-25T22:07:24Z" data-provider="oneWayData" finished-at="2019-01-25T22:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[  null]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWaySearch -->
+        <test-method status="PASS" signature="oneWaySearch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:integration.LoginAndOneWayIntegration@75f32542]" name="oneWaySearch" duration-ms="12838" started-at="2019-01-25T22:07:52Z" data-provider="oneWayData" finished-at="2019-01-25T22:08:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mon, 25 Mar, 2019]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value is-null="true"/>
+            </param>
+            <param index="7">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWaySearch -->
+        <test-method status="PASS" signature="oneWayBook()[pri:2, instance:integration.LoginAndOneWayIntegration@75f32542]" name="oneWayBook" duration-ms="37570" started-at="2019-01-25T22:08:04Z" depends-on-methods="integration.LoginAndOneWayIntegration.oneWaySearch" finished-at="2019-01-25T22:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayBook -->
+        <test-method status="PASS" signature="payment2Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:integration.LoginAndOneWayIntegration@75f32542]" name="payment2Test" duration-ms="106451" started-at="2019-01-25T22:08:42Z" data-provider="guestUserBooking" depends-on-methods="integration.LoginAndOneWayIntegration.oneWayBook" finished-at="2019-01-25T22:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a@b.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mrs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jun]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1997]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[mno]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Feb]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Mstr]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[2018]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[9987616272]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[123445677656]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[344]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Ind]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment2Test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:integration.LoginAndOneWayIntegration@75f32542]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-01-25T22:10:28Z" finished-at="2019-01-25T22:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- integration.LoginAndOneWayIntegration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
